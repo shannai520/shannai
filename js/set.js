@@ -43,7 +43,7 @@ function setBgImgInit() {
     case "1":
       $("#bg").attr(
         "src",
-        `./img/background${1 + ~~(Math.random() * 10 + 2)}.webp`
+        `./img/background${1 + ~~(Math.random() * 10)}.webp`
       ); //随机默认壁纸
       break;
     case "2":
