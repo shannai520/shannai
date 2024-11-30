@@ -47,7 +47,7 @@ function setBgImgInit() {
       ); //随机默认壁纸
       break;
     case "2":
-      $("#bg").attr("src", bg_img_preinstall[2]); //必应每日
+      $("#bg").attr("src", img/background2.webp); //必应每日
       break;
     case "3":
       $("#bg").attr("src", bg_img_preinstall[3]); //随机风景
